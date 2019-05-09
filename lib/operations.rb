@@ -9,7 +9,7 @@ def unsafe?(speed)
 end
 
 def not_safe?(speed)
-	(40..60).include?(speed) ? true : false 
+	(40..60).include?(speed) ? false : true
 end
 
 
